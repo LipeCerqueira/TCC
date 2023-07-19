@@ -1,2 +1,2 @@
-# TCC
+# TCC :-)
  Repositório do TCC
