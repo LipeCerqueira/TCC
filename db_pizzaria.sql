@@ -201,3 +201,10 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+CREATE TABLE `Lanches` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(300) NOT NULL COMMENT 'Nome do administrador',
+  `datahora` datetime NOT NULL COMMENT 'data e hora do registro',
+  `status` int(1) NOT NULL COMMENT '1-ativo; 0- inativo'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
