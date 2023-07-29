@@ -2,6 +2,12 @@
 /* font-family: 'Prompt', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /* font-family: 'Lobster', cursive; */
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
 *{
     margin: 0;
     padding: 0;
