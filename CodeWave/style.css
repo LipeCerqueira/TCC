@@ -9,6 +9,11 @@
     font-size: 15px;
     text-decoration: none;
 }
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
 body{
 background-image: linear-gradient(to bottom left, rgb(31, 31, 41) , rgb(55, 45, 66), rgb(24, 10, 23));
 overflow-x: hidden;
